@@ -1,7 +1,6 @@
 body {
   background: blue;
-  padding: 80px;
-  width: 600px;
+  padding-top: 60px;
 }
 
 header {
@@ -14,22 +13,24 @@ header {
   background-image: url(../images/logo.png);
   background-size: contain;
   height: 35px;
-  margin-left: : auto;
-  margin-right: auto;
+  /*margin-left: auto;*/
+  /*margin-right: auto;*/
   background-repeat: no-repeat;
-  padding-bottom: 25px;
+  margin-bottom: 25px;
 }
 
 .center {
-  margin: auto;
-  width: 80%;
-  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  /*padding: 10px;*/
 }
 
 .form {
   background-color: white;
   width: 360px
   /*padding: 40px;*/
+  /*margin-top:25px;*/
 }
 
 .form h1 {
@@ -42,6 +43,7 @@ header {
   background-color: white;
   padding: 15px;
   border: 2px solid black;
+  border-radius: 5px;
 }
 
 .button {
@@ -53,11 +55,8 @@ header {
   padding: 15px;
   text-align: center;
   text-decoration: none;
-  /*display: inline-block;*/
   font-size: 22px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 288px;
+  width: 298px;
 }
 
 .password {

@@ -28,9 +28,9 @@
         <input type="password" name='password' id='password' placeholder='1234passwOrd'/>
 
         <label for="email">Email</label>
-        <input type="email" name='email' id='email' placeholder="foo@bar.com"/>
+        <input type="email" pattern=""/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" required" name='email' id='email' placeholder="foo@bar.com"/>
 
-        <button class="button">
+        <button class="button center">
           <a href="/login">Sign up</a>
         </button>
         <a href="/login" class='password center'>Forgot Password?</a>

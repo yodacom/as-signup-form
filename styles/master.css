@@ -1,3 +1,4 @@
+
 body {
   background: blue;
   padding-top: 60px;
@@ -11,10 +12,9 @@ header {
 
 .logo {
   background-image: url(../images/logo.png);
+  background-position: center;
   background-size: contain;
   height: 35px;
-  /*margin-left: auto;*/
-  /*margin-right: auto;*/
   background-repeat: no-repeat;
   margin-bottom: 25px;
 }
@@ -37,9 +37,10 @@ header {
   text-align: center;
 }
 
-.form input, .form select .form button {
+.form input, .form select .form label .form button {
   width: 288px;
   margin-bottom: 15px;
+  padding-top: 15px;
   background-color: white;
   padding: 15px;
   border: 2px solid black;
@@ -48,21 +49,17 @@ header {
 
 .button {
   background-color: #4CAF50;
-  height: 35px;
+  height: 45px;
   border: 2px solid black;
   border-radius: 5px;
   color: white;
-  padding: 15px;
   text-align: center;
   text-decoration: none;
   font-size: 22px;
-  width: 298px;
+  width: 320px;
 }
-
-.password {
-  text-align: center;
-
-}
-
-
+.text-centering {
+margin-top: 15px;
+text-align: center;
+display: block;
 }

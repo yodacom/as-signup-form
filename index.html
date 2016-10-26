@@ -27,9 +27,10 @@
         <label for="email">Email</label>
         <input
           type="email"
-          pattern=""
+          pattern="
           /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" required" name='
-          email' id='email' placeholder="foo@bar.com"/>
+          email' id='
+          email' placeholder="foo@bar.com"/>
         <label for="password">Password</label>
         <input type="password" name='
           password' id='
@@ -39,11 +40,9 @@
         <button class="button center">
           <a href="/login">Sign up</a>
         </button>
-        <a href="/login" class='
-          password
-          center'>Forgot Password?</a>
+        <a href="/login" class='password center'>Forgot Password?</a>
     </fieldset>
-    <p class="center">
+    <p class="center password">
       Already have an account?
       <span>
         <a href="#">Sign In</a>
